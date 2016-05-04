@@ -16,3 +16,6 @@ RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip3 install sympy
 RUN pip3 install jupyter
+
+#installing a browser for jupyter
+RUN apt-get update && apt-get -y install firefox && rm -f /var/cache/apt/archives/*deb && find /var/lib/apt/lists/ -type f -delete && find /var/log/ -type f -delete
