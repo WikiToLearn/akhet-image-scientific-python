@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t akhetbase/scientific-python .
+docker build -t akhet/scientific-python .
